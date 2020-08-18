@@ -1,5 +1,5 @@
 ---
-title: Platform for Real Estate
+title: Platform for Real Estate tetar
 company: Propstreet
 order: "2"
 coverImage: '/images/ssrs.jpg'

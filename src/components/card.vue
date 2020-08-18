@@ -2,7 +2,7 @@
   <div class="card">
     <div class="aspect-ratio">
       <g-link :to="carddata.path">
-        <g-image :src="carddata.coverImage" />
+        <g-image :src="carddata.coverImage" width="1000" />
       </g-link>
     </div>
     <h2>
