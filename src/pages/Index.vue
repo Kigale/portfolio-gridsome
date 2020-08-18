@@ -31,7 +31,7 @@ query Projects{
 import card from "~/components/card.vue";
 export default {
   metaInfo: {
-    title: "Hello, world!",
+    title: "Portfolio",
   },
   components: {
     card,
@@ -43,6 +43,11 @@ export default {
 .wrapper {
   display: grid;
   grid-template-columns: auto auto;
+}
+@media screen and (max-width: 1240px) {
+  .wrapper {
+    grid-template-columns: auto;
+  }
 }
 </style>
 
