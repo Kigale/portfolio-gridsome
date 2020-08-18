@@ -1,6 +1,6 @@
-const c1 = () => import(/* webpackChunkName: "page--src--templates--project-vue" */ "/Users/lukas.riedel/code/portfolio/src/templates/Project.vue")
-const c2 = () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/Users/lukas.riedel/code/portfolio/node_modules/gridsome/app/pages/404.vue")
-const c3 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/Users/lukas.riedel/code/portfolio/src/pages/Index.vue")
+const c1 = () => import(/* webpackChunkName: "page--src--templates--project-vue" */ "/Users/lukas.riedel/code/portfolio-gridsome/src/templates/Project.vue")
+const c2 = () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/Users/lukas.riedel/code/portfolio-gridsome/node_modules/gridsome/app/pages/404.vue")
+const c3 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/Users/lukas.riedel/code/portfolio-gridsome/src/pages/Index.vue")
 
 export default [
   {

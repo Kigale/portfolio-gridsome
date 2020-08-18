@@ -6,7 +6,6 @@
 
 module.exports = {
   siteUrl: 'https://kigale.github.io',
-  pathPrefix: '/portfolio-gridsome',
   siteName: 'Lukas Riedel',
   plugins: [
     {
