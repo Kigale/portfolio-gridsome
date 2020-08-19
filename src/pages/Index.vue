@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <presentation />
     <div class="wrapper">
       <card
         v-for="projects in $page.projects.edges"
@@ -29,12 +30,14 @@ query Projects{
 
 <script>
 import card from "~/components/card.vue";
+import presentation from "~/components/presentation.vue";
 export default {
   metaInfo: {
     title: "Portfolio",
   },
   components: {
     card,
+    presentation,
   },
 };
 </script>
@@ -42,7 +45,8 @@ export default {
 <style>
 .wrapper {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
 }
 @media screen and (max-width: 1240px) {
   .wrapper {
@@ -50,16 +54,3 @@ export default {
   }
 }
 </style>
-
-
-/* 
-
-   <ul>
-      <li v-for="projects in $page.projects.edges" :key="projects.id">
-        <g-link :to="projects.node.path">{{ projects.node.title }}</g-link>
-        <ul>
-          <li>{{ projects.node.company }}</li>
-          <li>{{ projects.node.coverImage }}</li>
-        </ul>
-      </li>
-    </ul> */
