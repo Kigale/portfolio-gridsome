@@ -45,12 +45,13 @@ export default {
 <style>
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
   margin-top: 50px;
+  grid-gap: 1rem;
 }
-@media screen and (max-width: 1240px) {
+/* @media screen and (max-width: 1240px) {
   .wrapper {
     grid-template-columns: auto;
   }
-}
+} */
 </style>

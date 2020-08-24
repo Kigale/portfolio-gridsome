@@ -41,8 +41,8 @@ header {
 .layout {
   max-width: 1640px;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .header {

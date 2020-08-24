@@ -20,8 +20,9 @@ export default {
 .wrapper__pres {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  max-width: 1200px;
+  //max-width: 1200px;
   margin: 0 auto;
+  padding: 3rem 10%;
 }
 img {
   padding-right: 1rem;
@@ -31,8 +32,9 @@ img {
     grid-template-columns: auto;
   }
   img {
-    padding: 1rem;
-    max-width: 300px;
+    padding: 0rem;
+    padding-bottom: 1rem;
+    max-width: 400px;
     margin: auto;
   }
 }
