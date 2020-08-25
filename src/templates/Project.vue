@@ -1,6 +1,7 @@
 <template>
   <ProjectLayout>
-    <div v-html="$page.project.content" />
+    <p>{{$page.project.title}}</p>
+    <div class="projectWrapper" v-html="$page.project.content" />
   </ProjectLayout>
 </template>
 
@@ -22,3 +23,15 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+.projectWrapper {
+  width: 720px;
+  margin: auto;
+  img {
+    width: 920px;
+    max-width: none;
+    margin: 0 -100px;
+  }
+}
+</style>

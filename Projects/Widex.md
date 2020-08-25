@@ -2,7 +2,7 @@
 title: From Stigma to Fashion
 company: Widex
 order: "1"
-coverImage: '/images/widex.jpg'
+coverImage: './images/widex.jpg'
 ---
 
 WIDEX

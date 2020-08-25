@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper__pres">
-    <g-image src="/images/ssrs.jpg" />
+    <g-image src="~/assets/images/portrait.jpg" />
     <div>
       <p>
         I am a curious and questioning designer who loves to challenge norms. So far this has resulted in that I have crushed the stigma surrounding hearing aids, that I have helped making the sea rescue society autonomously airborne and that I have created a service for commercial real estate brokers so that they don’t have to go to Cannes to find new investors.
