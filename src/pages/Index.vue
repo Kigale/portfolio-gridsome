@@ -1,19 +1,17 @@
 <template>
-  <Layout>
-    <presentation />
-    <div class="wrapper">
-      <card
-        v-for="projects in $page.projects.edges"
-        :key="projects.id"
-        v-bind:carddata="projects.node"
-      />
+  <Layout :show-navigation="false">
+    <div class="headerheight" />
+
+    <presentation class="contentBig" />
+    <div class="wrapper contentBig">
+      <card v-for="edge in $page.projects.edges" :key="edge.node.id" :carddata="edge.node" />
     </div>
   </Layout>
 </template>
 
 <page-query>
-query Projects{
-  projects: allProject (sortBy: "order" order: ASC){
+query
+  Projects{projects: allProject (sortBy: "order" order: ASC){
     edges{
       node{
         id
@@ -21,7 +19,7 @@ query Projects{
         path
         order
         company
-        coverImage
+        coverImage (blur: 5, quality: 90)
       }
     }
   }
@@ -43,6 +41,9 @@ export default {
 </script>
 
 <style>
+.headerheight {
+  height: 160px;
+}
 .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));

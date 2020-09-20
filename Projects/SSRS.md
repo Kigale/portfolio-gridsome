@@ -5,8 +5,9 @@ order: "3"
 coverImage: './images/ssrs.jpg'
 ---
 
-Är jag rätt?
-<span class="intro">After the Bachelor's thesis, I asked for more employment at the Swedish Sea Rescue Society. They are right now prototyping a new rescue jetski for big passenger ferries which I am designing and constructing the lift cradle for.</span>
+After the Bachelor's thesis, I asked for more employment at the Swedish Sea Rescue Society.
+
+They are right now prototyping a new rescue jetski for big passenger ferries which I am designing and constructing the lift cradle for.
 
 
 ![SSRS](./images/ssrs.jpg)

@@ -1,8 +1,12 @@
 <template>
   <div class="layout">
-    <header class="header">
+    <header class="header contentBig">
       <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+        <div v-if="showNavigation">
+          <back />
+          <g-link to="/">Back</g-link>
+        </div>
+        <h1 v-else>{{ $static.metadata.siteName }}</h1>
       </strong>
       <nav class="nav">
         <a href="mailto:lukas.riedel@gmail.com" class="nav__link">Email</a>
@@ -20,6 +24,18 @@
   </div>
 </template>
 
+<script>
+import back from "~/assets/back.svg";
+export default {
+  props: {
+    showNavigation: { default: true },
+  },
+  components: {
+    back,
+  },
+};
+</script>
+
 <static-query>
 query {
   metadata {
@@ -29,20 +45,17 @@ query {
 </static-query>
 
 <style lang="scss">
-header {
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
   strong {
     a {
       font-size: 2.25rem;
       text-decoration: none;
     }
   }
-}
-
-.layout {
-  max-width: 1640px;
-  margin: 0 auto;
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
 
 .header {

@@ -1,8 +1,11 @@
 <template>
-  <ProjectLayout>
-    <p>{{$page.project.title}}</p>
-    <div class="projectWrapper" v-html="$page.project.content" />
-  </ProjectLayout>
+  <Layout>
+    <div class="coverimage">
+      <g-image :src="$page.project.coverImage" />
+    </div>
+    <div class="titlecontainer" />
+    <div class="projectContent" v-html="$page.project.content" />
+  </Layout>
 </template>
 
 <page-query>
@@ -10,6 +13,7 @@ query project($path: String!) {
     project: project(path: $path){
         title
         content
+        coverImage (blur: 5)
     }
 }
 </page-query>
@@ -25,13 +29,28 @@ export default {
 </script>
 
 <style lang="scss">
-.projectWrapper {
-  width: 720px;
-  margin: auto;
+.titlecontainer {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  background-color: pink;
+  //margin-top: -25px;
+  margin: -25px 0 0;
+}
+.coverimage {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+}
+.projectContent {
+  background: var(--bg-color);
+  max-width: var(--content-width);
+  margin: -100px auto 0;
+  padding: var(--space);
   img {
-    width: 920px;
+    width: calc(100% + var(--space) * 2);
     max-width: none;
-    margin: 0 -100px;
+    margin-left: calc(var(--space) * -1);
   }
 }
 </style>
