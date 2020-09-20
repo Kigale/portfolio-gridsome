@@ -3,8 +3,9 @@
     <header class="header contentBig">
       <strong>
         <div v-if="showNavigation">
-          <back />
-          <g-link to="/">Back</g-link>
+          <g-link to="/">
+            <back />Back
+          </g-link>
         </div>
         <h1 v-else>{{ $static.metadata.siteName }}</h1>
       </strong>

@@ -19,9 +19,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-h1 {
-  //background: url("~/assets/highlight.svg");
-}
 .wrapper__pres {
   display: grid;
   grid-template-columns: 1fr 2fr;

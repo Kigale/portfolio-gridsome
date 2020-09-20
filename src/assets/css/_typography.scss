@@ -43,3 +43,13 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+blockquote{
+  font-size: 2rem;
+  padding: 7rem 4rem;
+  p{
+    
+    text-align: right;
+    color: var(--subtitle-color);
+  }
+}

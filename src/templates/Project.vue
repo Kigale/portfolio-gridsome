@@ -3,7 +3,6 @@
     <div class="coverimage">
       <g-image :src="$page.project.coverImage" />
     </div>
-    <div class="titlecontainer" />
     <div class="projectContent" v-html="$page.project.content" />
   </Layout>
 </template>
@@ -29,13 +28,10 @@ export default {
 </script>
 
 <style lang="scss">
-.titlecontainer {
-  position: relative;
-  width: 100px;
-  height: 50px;
-  background-color: pink;
-  //margin-top: -25px;
-  margin: -25px 0 0;
+.intro {
+  font-style: italic;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 .coverimage {
   width: 100vw;
