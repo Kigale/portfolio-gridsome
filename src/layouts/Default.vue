@@ -3,7 +3,7 @@
     <header class="header contentBig">
       <strong>
         <div v-if="showNavigation">
-          <g-link to="/">
+          <g-link to="/" class="nav__back">
             <back />Back
           </g-link>
         </div>
@@ -65,6 +65,15 @@ query {
   align-items: center;
   margin-bottom: 20px;
   height: 160px;
+}
+
+.nav__back {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  svg {
+    margin: auto;
+  }
 }
 
 .nav__link {
