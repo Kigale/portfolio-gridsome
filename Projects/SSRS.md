@@ -3,6 +3,7 @@ title: Safe Launch of Rescue Crafts
 company: The Swedish Sea Rescue Society
 order: "3"
 coverImage: './images/ssrs.jpg'
+intro: inget än så länge
 ---
 
 After the Bachelor's thesis, I asked for more employment at the Swedish Sea Rescue Society.

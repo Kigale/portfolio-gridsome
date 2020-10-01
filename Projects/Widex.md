@@ -3,9 +3,9 @@ title: From Stigma to Fashion
 company: Widex
 order: "1"
 coverImage: './images/widex/widex.jpg'
+intro: For my thesis, I wanted to develop on a theme that would benefit people that are undervalued in society today. Together with Thure Waller, I tackled the stigmatized product hearing aids. We ended up with a product aimed to disrupt the hearing aid industry.
+responsibilities: Industrial design, engineering, testing
 ---
-<p class="intro">For my thesis, I wanted to develop on a theme that would benefit people that are undervalued in society today. Together with Thure Waller, I tackled the stigmatized product hearing aids .We ended up with a product aimed to disrupt the hearing aid industry.</p>
-
 ## What Can We Learn From Eyeglasses?
 Untreated hearing loss can lead to social isolation, depression and even dementia. In Sweden up to 19% of the population live with hearing loss. It is therefore a widespread issue. How is it then that only 25% of the people suffering from hearing loss treat it?
 
