@@ -15,14 +15,21 @@ body {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 
-h2{
+h1.project {
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
   font-size: 2.25rem;
   a{
     text-decoration: none;
   }
+  margin-bottom: 0.5rem;
 }
 
 h3{
@@ -34,6 +41,7 @@ h3{
 
 p {
   font-size: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 a {
@@ -44,12 +52,3 @@ a:hover {
   text-decoration: underline;
 }
 
-blockquote{
-  font-size: 2rem;
-  padding: 7rem 4rem;
-  p{
-    
-    text-align: right;
-    color: var(--subtitle-color);
-  }
-}
