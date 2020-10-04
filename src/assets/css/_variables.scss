@@ -1,5 +1,5 @@
 html {
-  --base-font-size: 16px;
+  --base-font-size: 100%;
 }
 
 body {
@@ -8,10 +8,9 @@ body {
     --subtitle-color: #7B7B7B;
     --space: 15rem;
     --content-width: 720px;
-
-    --tablet: 720px;
 }
 
+$tablet: 720px;
 
 /* html {
     --base-font-size: 22px;
@@ -30,9 +29,5 @@ body {
     --code-bg: #11111198;
     --space: 3.5rem;
   }
-  @media screen and (max-width: 650px) {
-    html {
-      --base-font-size: 18px;
-    }
-  }
+
    */
