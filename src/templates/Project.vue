@@ -90,7 +90,7 @@ export default {
   }
 }
 figure {
-  margin: 5rem auto;
+  margin: 7rem auto;
   max-width: calc(var(--content-width) + 2 * var(--space));
   padding-left: 0rem;
   padding-right: 0rem;
