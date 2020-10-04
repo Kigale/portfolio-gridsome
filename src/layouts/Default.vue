@@ -1,23 +1,20 @@
 <template>
-  <div class="layout">
-    <header class="header contentBig">
+  <div>
+    <header class="header">
       <strong>
         <div v-if="showNavigation">
-          <g-link to="/" class="nav__back"> <back />Back </g-link>
+          <g-link to="/" class="header__back"> <back />Back </g-link>
         </div>
         <h1 v-else>{{ $static.metadata.siteName }}</h1>
       </strong>
-      <nav class="nav" v-if="showNavigation === false">
-        <a href="mailto:lukas.riedel@gmail.com" class="nav__link">Email</a>
+      <nav class="header__links" v-if="showNavigation === false">
+        <a href="mailto:lukas.riedel@gmail.com">Email</a>
         <br />
-        <a
-          href="https://www.linkedin.com/in/lukasriedel/"
-          class="nav__link"
-          target="_blank"
+        <a href="https://www.linkedin.com/in/lukasriedel/" target="_blank"
           >LinkedIn</a
         >
         <br />
-        <a href="tel:+46705954749" class="nav__link">+46 70 595 47 49</a>
+        <a href="tel:+46705954749">+46 70 595 47 49</a>
       </nav>
     </header>
     <slot />
@@ -55,6 +52,22 @@ query {
   align-items: center;
   margin-bottom: 20px;
   height: 160px;
+  max-width: 1640px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  &__links {
+    margin-left: 20px;
+    font-size: 1.5rem;
+  }
+  &__back {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+    svg {
+      margin: auto;
+    }
+  }
   strong {
     a {
       font-size: 2.25rem;
@@ -62,30 +75,21 @@ query {
     }
   }
 }
-.nav__back {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 1rem;
-  svg {
-    margin: auto;
-  }
-}
-@media screen and (max-width: 720px) {
+
+@media screen and (max-width: $tablet) {
   .header {
     height: 80px;
     strong {
       a {
-        font-size: 1.25rem;
+        font-size: 2rem;
+      }
+    }
+    &__back {
+      grid-column-gap: 0.5rem;
+      svg {
+        height: 16px;
       }
     }
   }
-  .nav__back {
-    grid-column-gap: 0.5rem;
-  }
-}
-
-.nav__link {
-  margin-left: 20px;
-  font-size: 1.5rem;
 }
 </style>
