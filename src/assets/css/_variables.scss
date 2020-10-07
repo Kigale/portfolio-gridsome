@@ -11,6 +11,13 @@ body {
 }
 
 $tablet: 720px;
+$maxContentWidth: 1640px;
+
+@media screen and (max-width: $tablet) {
+  html {
+    --base-font-size: 75%;
+  }
+}
 
 /* html {
     --base-font-size: 22px;
