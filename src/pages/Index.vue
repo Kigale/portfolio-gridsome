@@ -1,10 +1,16 @@
 <template>
   <Layout :show-navigation="false">
-    <div class="headerheight" />
-
-    <presentation class="contentBig" />
+    <!--  <presentation class="contentBig" /> -->
     <div class="wrapper contentBig">
-      <card v-for="edge in $page.projects.edges" :key="edge.node.id" :carddata="edge.node" />
+      <video width="800" height="600" autoplay muted loop>
+        <source src="../assets/reveal.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <card
+        v-for="edge in $page.projects.edges"
+        :key="edge.node.id"
+        :carddata="edge.node"
+      />
     </div>
   </Layout>
 </template>
@@ -40,19 +46,25 @@ export default {
 };
 </script>
 
-<style>
-.headerheight {
-  height: 160px;
-}
+<style lang=scss>
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
-  margin-top: 50px;
-  grid-gap: 1rem;
-}
-/* @media screen and (max-width: 1240px) {
-  .wrapper {
-    grid-template-columns: auto;
+  grid-template-columns: repeat(auto-fill, minmax(505px, 1fr));
+  margin-top: 10rem;
+  grid-gap: 2rem;
+  max-width: $maxContentWidth;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2rem;
+  line-height: 1.25;
+  h3 {
+    padding: 0.75rem 0 0.5rem;
   }
-} */
+}
+@media screen and (max-width: $tablet) {
+  .wrapper {
+    padding: 0 1rem;
+    grid-template-columns: 1fr;
+  }
+}
 </style>
