@@ -9,11 +9,11 @@
       </strong>
       <nav class="header__links" v-if="showNavigation === false">
         <a href="mailto:lukas.riedel@gmail.com">Email</a>
-        <br />
+        <br class="notOnSmallDevice" />
         <a href="https://www.linkedin.com/in/lukasriedel/" target="_blank"
           >LinkedIn</a
         >
-        <br />
+        <br class="notOnSmallDevice" />
         <a href="tel:+46705954749">+46 70 595 47 49</a>
       </nav>
     </header>
@@ -47,25 +47,25 @@ query {
   left: 0;
   top: 0;
   right: 0;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  margin-bottom: 20px;
   height: 160px;
-  max-width: 1640px;
+  max-width: $maxContentWidth;
   margin: 0 auto;
   padding-left: 2rem;
   padding-right: 2rem;
   &__links {
-    margin-left: 20px;
     font-size: 1.5rem;
+    justify-self: end;
   }
   &__back {
-    display: grid;
+    display: inline-grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 1rem;
     svg {
       margin: auto;
+      height: 2rem;
     }
   }
   strong {
@@ -78,7 +78,23 @@ query {
 
 @media screen and (max-width: $tablet) {
   .header {
+    grid-template-columns: 1fr;
     height: 80px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+    &__links {
+      margin-top: 0.5rem;
+      justify-self: start;
+      display: flex;
+      flex-wrap: wrap;
+      * {
+        margin-right: 1rem;
+      }
+      :last-child {
+        margin-right: 0;
+      }
+    }
     strong {
       a {
         font-size: 2rem;
