@@ -5,10 +5,11 @@
         <g-image :src="carddata.coverImage" />
       </g-link>
     </div>
+
+    <h3>{{ carddata.company }}</h3>
     <h2>
       <g-link :to="carddata.path">{{ carddata.title }}</g-link>
     </h2>
-    <h3>{{ carddata.company }}</h3>
   </div>
 </template>
 
