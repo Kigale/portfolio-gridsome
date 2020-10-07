@@ -82,6 +82,7 @@ export default {
   p,
   h1,
   h2 {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: var(--content-width);
@@ -89,7 +90,12 @@ export default {
     padding-right: 2rem;
   }
 }
-figure {
+video {
+  width: 100%;
+}
+figure,
+video {
+  display: block;
   margin: 7rem auto;
   max-width: calc(var(--content-width) + 2 * var(--space));
   padding-left: 0rem;
