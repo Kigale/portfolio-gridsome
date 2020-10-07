@@ -6,6 +6,7 @@ coverImage: './images/widex/widex.jpg'
 intro: For my thesis, I wanted to develop on a theme that would benefit people that are undervalued in society today. Together with Thure Waller, I tackled the stigmatized product hearing aids. We ended up with a product aimed to disrupt the hearing aid industry.
 responsibilities: Industrial design, engineering, testing
 ---
+
 ## What Can We Learn From Eyeglasses?
 Untreated hearing loss can lead to social isolation, depression and even dementia. In Sweden up to 19% of the population live with hearing loss. It is therefore a widespread issue. How is it then that only 25% of the people suffering from hearing loss treat it?
 
@@ -45,7 +46,10 @@ Stigmatization is about discrimination of a group of people with a specific set 
 ## We All Need a HearO
 We created the HearO. It builds on three strategies to reach more users: easier access to the product, connection to style and integrating a function that everyone wants. The HearO is by that attractive to a broad user group, not only those with hearing loss. It has three key functions: express style, control the soundscape and increase wellbeing.
 
-# REVEAL!!!
+<video autoplay muted loop>
+        <source src="/assets/media/reveal.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
 ## Express Style
 The HearO takes a bold approach on style expression. This product is made to express style and to make people feel proud of their product. The HearO makes this by exchangeable discs which totally change the complete appearance. There is a disc for everyone and every situation. They easily snap on and off.
