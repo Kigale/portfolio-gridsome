@@ -6,7 +6,7 @@
     <div class="projectContent">
       <h1 class="project">{{ $page.project.title }}</h1>
       <p class="intro">{{ $page.project.intro }}</p>
-      <div class="projectDataWrapper" style="margin-bottom: 5rem">
+      <div class="projectWrapper" style="margin-bottom: 5rem">
         <hr />
         <div class="projectData">
           <div>
@@ -78,11 +78,10 @@ export default {
   }
 }
 .projectContent {
-  div.projectDataWrapper,
+  div.projectWrapper,
   p,
   h1,
   h2 {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: var(--content-width);
@@ -94,7 +93,8 @@ video {
   width: 100%;
 }
 figure,
-video {
+video,
+.projectVideo {
   display: block;
   margin: 7rem auto;
   max-width: calc(var(--content-width) + 2 * var(--space));
