@@ -46,8 +46,8 @@ Stigmatization is about discrimination of a group of people with a specific set 
 ## We All Need a HearO
 We created the HearO. It builds on three strategies to reach more users: easier access to the product, connection to style and integrating a function that everyone wants. The HearO is by that attractive to a broad user group, not only those with hearing loss. It has three key functions: express style, control the soundscape and increase wellbeing.
 
-<video autoplay muted loop>
-        <source src="/assets/media/reveal.mp4" type="video/mp4" />
+<video autoplay muted loop playsinline>
+        <source src="/videos/reveal.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
@@ -61,7 +61,9 @@ You can control your soundscape in many ways with the HearO. Music is controlled
 
 ![HearO controls](./images/widex/controls.jpg)
 
-# FILM !!!
+<div class="projectVideo"><div style="padding:56.25% 0 0 0;position:relative;">
+<iframe  src="https://www.youtube.com/embed/ziNR2HuComQ?controls=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
 
 ![Case for HearO](./images/widex/case.jpg)
 
@@ -69,6 +71,11 @@ You can control your soundscape in many ways with the HearO. Music is controlled
 The HearO increases your wellbeing by taking the health approach on wearables further. This is enabled by that the ear is the perfect placement for biometric measurements such as heart rate and stress level. The HearO gives you total control over your level of fitness and together with a smartphone app, you get a personalized training schedule. The stress level measurements is used in a part of the app focusing on giving you sound therapy for relaxation or focus.
 
 ![App for HearO](./images/widex/app.jpg)
+
+<video autoplay controls muted playsinline>
+    <source src="/videos/tech.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+ </video>
 
 ![HearO technology](./images/widex/tech.jpg)
 
