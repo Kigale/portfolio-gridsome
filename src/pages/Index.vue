@@ -2,10 +2,6 @@
   <Layout :show-navigation="false">
     <!--  <presentation class="contentBig" /> -->
     <div class="wrapper contentBig">
-      <video width="800" height="600" autoplay muted loop>
-        <source src="../assets/reveal.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
       <card
         v-for="edge in $page.projects.edges"
         :key="edge.node.id"
