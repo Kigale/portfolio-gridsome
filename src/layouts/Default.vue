@@ -43,12 +43,13 @@ query {
 
 <style lang="scss">
 .header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  z-index: 99;
   align-items: center;
   height: 160px;
   max-width: $maxContentWidth;
