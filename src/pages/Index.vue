@@ -39,6 +39,27 @@ export default {
     card,
     presentation,
   },
+  metaInfo: {
+    meta: [
+      {
+        property: "og:title",
+        content: "Portfolio of Lukas Riedel",
+      },
+      {
+        property: "og:description",
+        content: "The design portfolio of Lukas Riedel, product designer",
+      },
+      {
+        property: "og:image",
+        content: "https://kigale.github.io/portfolio.jpg",
+      },
+      {
+        property: "og:url",
+        content: "https://kigale.github.io/",
+      },
+    ],
+    // etc...
+  },
 };
 </script>
 
