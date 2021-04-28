@@ -1,43 +1,59 @@
 <template>
-  <div class="wrapper__pres">
-    <g-image src="~/assets/images/portrait.jpg" />
-    <div>
-      <highlight />
-      <h1>Lukas Riedel</h1>
+  <div>
+    <div class="presentationContainer">
+      <g-image src="~/assets/images/portrait.jpg" />
+
+      <div>
+        <strong>Hallå!</strong>
+        <p>
+          Jag är en nätverkare, en doer och en passionerad problemlösare. På
+          jobbet kallas jag UX designer. Och så älskar jag havet.
+        </p>
+      </div>
     </div>
+    <divider class="divider" />
   </div>
 </template>
 
 <script>
-import highlight from "~/assets/highlight.svg";
+import divider from "~/assets/divider.svg";
 export default {
   name: "presentation",
   components: {
-    highlight,
+    divider,
   },
 };
 </script>
 
 <style lang="scss" scoped>
-.wrapper__pres {
+.divider {
+  position: relative;
+  top: -14px;
+}
+.presentationContainer {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  //max-width: 1200px;
-  margin: 0 auto;
-  padding: 3rem 10%;
-}
-img {
-  padding-right: 1rem;
-}
-@media screen and (max-width: 1240px) {
-  .wrapper__pres {
-    grid-template-columns: auto;
-  }
+  grid-template-columns: 1fr 1fr;
+  margin: 10rem auto 0;
+  align-items: center;
+  grid-gap: 2rem;
   img {
-    padding: 0rem;
+    max-height: 50vh;
+    display: block;
+    object-fit: contain;
+  }
+  strong {
+    font-size: 4rem;
     padding-bottom: 1rem;
-    max-width: 400px;
-    margin: auto;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .presentationContainer {
+    grid-template-columns: 1fr;
+    margin-top: 5rem;
   }
 }
 </style>

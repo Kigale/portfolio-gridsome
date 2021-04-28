@@ -7,7 +7,7 @@
       <h1 class="project">{{ $page.project.title }}</h1>
       <p class="intro">{{ $page.project.intro }}</p>
       <div class="projectWrapper" style="margin-bottom: 5rem">
-        <hr />
+        <divider />
         <div class="projectData">
           <div>
             <h3>Client</h3>
@@ -18,7 +18,7 @@
             <p>{{ $page.project.responsibilities }}</p>
           </div>
         </div>
-        <hr />
+        <divider />
       </div>
       <div v-html="$page.project.content"></div>
     </div>
@@ -39,12 +39,16 @@ query project($path: String!) {
 </page-query>
 
 <script>
+import divider from "~/assets/divider.svg";
 export default {
   props: ["carddata"],
   metaInfo() {
     return {
       title: this.$page.project.title,
     };
+  },
+  components: {
+    divider,
   },
 };
 </script>
@@ -70,6 +74,7 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 2rem;
+  margin: 1rem auto;
   div {
     p {
       margin: 0;

@@ -1,7 +1,7 @@
 <template>
   <Layout :show-navigation="false">
-    <!--  <presentation class="contentBig" /> -->
-    <div class="wrapper contentBig">
+    <presentation class="indexContent" />
+    <div class="wrapper indexContent">
       <card
         v-for="edge in $page.projects.edges"
         :key="edge.node.id"
@@ -43,23 +43,30 @@ export default {
 </script>
 
 <style lang=scss>
+.indexContent {
+  max-width: $maxContentWidth;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(505px, 1fr));
   margin-top: 10rem;
   grid-gap: 2rem;
-  max-width: $maxContentWidth;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 2rem;
+  padding-top: 0;
   line-height: 1.25;
   h3 {
     padding: 0.75rem 0 0.5rem;
   }
 }
 @media screen and (max-width: $tablet) {
+  .indexContent {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .wrapper {
-    padding: 0 1rem;
     grid-template-columns: 1fr;
   }
 }
