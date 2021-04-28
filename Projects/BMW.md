@@ -1,9 +1,9 @@
 ---
-title: How to find your BMW
+title: Finding your BMW
 company: BMW
 order: "1"
 coverImage: './images/bmw/dsa_cover.jpg'
-intro: Buying a car is not just buying what you need. Instead, people also ask themselves:' what do I want my car to say about me? With the huge selection of cars in BMWs line-up, there are cars for every need that tell different stories. We made a responsive tool that helps customers find their desired BMW model, experience it and potentially click the order button.
+intro: Buying a car is not just buying what you need. Instead, people also ask themselves:''what do I want my car to say about me? With the huge selection of cars in BMWs line-up, there are cars for every need that tell different stories. We made a responsive tool that helps customers find their desired BMW model, experience it and potentially click the order button.
 responsibilities: UX, UI
 ---
 
