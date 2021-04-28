@@ -1,7 +1,7 @@
 ---
 title: Platform for Real Estate
 company: Propstreet
-order: "2"
+order: "3"
 coverImage: './images/propstreet/propstreet_start.jpg'
 intro: Eager to employ my skills within UX design, I got in contact with a startup called Propstreet in Stockholm. They had launched a marketplace for commercial real estate half a year earlier and wanted to take both functionality and UX to the next level. I became responsible for translating these ambitions to a fully functional website thoroughly based on user feedback.
 responsibilities: UX, Graphic design

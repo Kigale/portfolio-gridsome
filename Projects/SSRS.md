@@ -1,14 +1,14 @@
 ---
 title: Safe Launch of Rescue Crafts
 company: The Swedish Sea Rescue Society
-order: "3"
+order: "5"
 coverImage: './images/ssrs.jpg'
 intro: inget än så länge
 ---
 
-After the Bachelor's thesis, I asked for more employment at the Swedish Sea Rescue Society.
+Inspired from doing my Bachelor's thesis, I asked for more employment at the Swedish Sea Rescue Society.
 
-They are right now prototyping a new rescue jetski for big passenger ferries which I am designing and constructing the lift cradle for.
+They were prototyping a new rescue jetski for big passenger ferries which I designed and engineered the lift cradle for.
 
 
 ![SSRS](./images/ssrs.jpg)
