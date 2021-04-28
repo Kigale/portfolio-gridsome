@@ -31,14 +31,7 @@ export default {
     back,
   },
   metaInfo: {
-    title: "About us",
-    meta: [
-      {
-        name: "author",
-        content: "Lukas Riedel",
-      },
-    ],
-    // etc...
+    title: "Portfolio",
   },
 };
 </script>
