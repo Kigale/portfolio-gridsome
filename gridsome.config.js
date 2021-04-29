@@ -28,7 +28,7 @@ module.exports = {
       .use('vue-svg-loader')
       .loader('vue-svg-loader')
   },
-  siteUrl: 'https://kigale.github.io',
+  siteUrl: 'https://www.lukasriedel.se',
   siteName: 'Lukas Riedel',
   plugins: [
     {
