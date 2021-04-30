@@ -4,10 +4,11 @@ This site is built with Gridsome, based on posts written in markdown.
 
 ## Dependencies
 
-1. Gridsome
-2. Transformer remark
-3. Source filesystem
-4. Gh pages
+1. Gridsome (static site builder)
+2. Transformer remark (HTML generator from markdown)
+3. Source filesystem (to find markdown files)
+4. Gh pages (to deploy to Github pages)
+5. Vue G-tag (for analytics)
 
 ## 
 
