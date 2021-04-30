@@ -2,16 +2,16 @@
   <div>
     <div class="presentationContainer">
       <g-image src="~/assets/images/portrait.jpg" />
-
       <div>
-        <strong>Hallå!</strong>
+        <strong>Hi!</strong>
         <p>
-          Jag är en nätverkare, en doer och en passionerad problemlösare. På
-          jobbet kallas jag UX designer. Och så älskar jag havet.
+          Passionate problem solver and curious designer here. I want to use my
+          skills for identifying and understanding users’ needs in ways that
+          have real and tangible benefits in people’s everyday lives.
         </p>
       </div>
     </div>
-    <divider class="divider" />
+    <divider class="divider hideMobile" />
   </div>
 </template>
 
@@ -50,7 +50,19 @@ export default {
   }
 }
 
+@media screen and (min-width: 900px) {
+  .hideDesktop {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 900px) {
+  img {
+    display: none;
+  }
+  .hideMobile {
+    display: none;
+  }
   .presentationContainer {
     grid-template-columns: 1fr;
     margin-top: 5rem;
