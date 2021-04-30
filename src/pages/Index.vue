@@ -51,11 +51,11 @@ export default {
       },
       {
         property: "og:image",
-        content: "https://kigale.github.io/portfolio.jpg",
+        content: "https://www.lukasriedel.se/portfolio.jpg",
       },
       {
         property: "og:url",
-        content: "https://kigale.github.io/",
+        content: "https://www.lukasriedel.se/",
       },
     ],
     // etc...
