@@ -1,7 +1,12 @@
 <template>
   <div>
     <div class="presentationContainer">
-      <g-image src="~/assets/images/portrait.jpg" />
+      <div class="hideMobile">
+        <g-image src="~/assets/images/portrait.jpg" />
+      </div>
+      <div class="hideDesktop">
+        <g-image src="~/assets/images/portrait_mobile.jpg" />
+      </div>
       <div>
         <strong>Hi!</strong>
         <p>
@@ -57,9 +62,6 @@ export default {
 }
 
 @media screen and (max-width: 900px) {
-  img {
-    display: none;
-  }
   .hideMobile {
     display: none;
   }
