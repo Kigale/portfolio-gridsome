@@ -32,14 +32,12 @@ query
 import card from "~/components/card.vue";
 import presentation from "~/components/presentation.vue";
 export default {
-  metaInfo: {
-    title: "Portfolio",
-  },
   components: {
     card,
     presentation,
   },
   metaInfo: {
+    title: "Portfolio",
     meta: [
       {
         property: "og:title",
@@ -58,7 +56,6 @@ export default {
         content: "https://www.lukasriedel.se/",
       },
     ],
-    // etc...
   },
 };
 </script>
