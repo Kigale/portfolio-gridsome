@@ -3,7 +3,7 @@ title: Safe Launch of Rescue Crafts
 company: The Swedish Sea Rescue Society
 order: "5"
 coverImage: './images/ssrs/ssrs.jpg'
-intro: Full of inspiration from doing my Bachelor's thesis, I asked for more employment at the Swedish Sea Rescue Society. They are right now prototyping a new rescue jetski for big passenger ferries which I am designing and constructing the lift cradle for.
+intro: Full of inspiration from doing my Bachelor's thesis, I asked for more employment at the Swedish Sea Rescue Society. They are right now prototyping a new rescue jetski for big passenger ferries which I am designing and constructing the lift cradle for. I also designed a custom fender.
 responsibilities: Industrial Design, Mechanical Engineering
 ---
 

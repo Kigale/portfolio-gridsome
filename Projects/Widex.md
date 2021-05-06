@@ -3,7 +3,7 @@ title: From Stigma to Fashion
 company: Widex
 order: "4"
 coverImage: './images/widex/widex.jpg'
-intro: For my thesis, I wanted to develop on a theme that would benefit people that are undervalued in society today. Together with Thure Waller, I tackled the stigmatized product hearing aids. We ended up with a product aimed to disrupt the hearing aid industry.
+intro: I wanted my thesis to create benefit for people. Together with Thure Waller, I tackled the stigmatized product hearing aids. We ended up with a product aimed to disrupt the hearing aid industry.
 responsibilities: Industrial design, engineering, testing
 ---
 
@@ -17,17 +17,17 @@ It is not the first time in history stigma has had so much power when it comes t
 ![Hearing aids](./images/widex/Hearing-aids.png)
 
 ## Visiting the Clinics
-We paid visits to different audiologist clinics to see how hearing aids are acquired today. We were met with old interiors and a feeling of coming to a hospital which people described as negative. The audiologists showed us all the steps to receive hearing aids. One interesting finding was that all hearing aid companies seem to do just the same products. For most users the brands are impossible to differentiate. There are only six companies controlling 98% of the market.
+We paid visits to different audiologist clinics to see how hearing aids are acquired today. We were met with old interiors and a feeling of coming to a hospital which people described as negative. The audiologists showed us all the steps to receive hearing aids. One interesting finding was that all hearing aid companies seem to do pretty much the same products. For most users, the different brands are impossible to tell apart. There are only six companies controlling 98% of the market.
 
 ![Hearing aid testing](./images/widex/ha-test.jpg)
 ![Hearing aid molding](./images/widex/molding.jpg)
 
 <blockquote>
-When I go to the disco to hit on girls I can't wear hearing aids. I want to be perceived as a healthy old man rather than elderly.<p>– Disco-loving hearing aid refuser</p>
+When I go to the disco to hit on girls, I can't wear hearing aids. I want to be perceived as a healthy old man rather than elderly.<p>– Disco-loving hearing aid refuser</p>
 </blockquote>
 
 ## Understanding People's Motivations
-To find empathy with people needing hearing aids, we did interviews with people experiencing hearing loss. We found it important to interview both users and non-users of hearing aids to know which struggles they both had. The diagnosis of hearing loss and the prescribed hearing aid was always seen as tough. We got examples of embarrassing situations when hearing loss crushed romantic moments. Users said that the worst experiences lie before the actual use. We also got to know the reason why everyone wants to hide their hearing aids: they just want to be like everyone else.
+To find empathy with people needing hearing aids, we did interviews with people experiencing hearing loss. We found it important to interview both users and non-users of hearing aids to know which struggles they both had. The diagnosis of hearing loss and the prescribed hearing aid was always seen as tough. We got examples of embarrassing situations when hearing loss crushed romantic moments. Users said that the worst experiences actually come before they start using hearing aids. We also got to know the reason why everyone wants to hide their hearing aids: they just want to be like everyone else.
 
 ![Insights](./images/widex/insights.jpg)
 
@@ -37,7 +37,7 @@ Just making the next generation hearing aid would probably not be enough to tack
 ![Workshop with users](./images/widex/workshop.jpg)
 
 ## A Product That Everyone Wants
-Stigmatization is about discrimination of a group of people with a specific set of characteristics. We found out that the most effective way to diminish stigma is to make a product that is used by everyone, not only those with hearing loss. This insight gave us the biggest challenge in this project: how do you create a product with a specific use but attractive to everyone? Lots of probing research through surveys and interviews with users and a co-creation session showed that we all have situations in which we want to hear better. This together with what we saw in the development of the headphone industry today led us in an interesting direction.
+Stigmatization is about discrimination of a group of people with a specific set of characteristics. We found out that the most effective way to diminish stigma is to make a product that is used by everyone, not only those with hearing loss. This insight gave us the biggest challenge in this project: how do you create a product with a specific use but attractive to everyone? Lots of probing research through surveys and interviews with users and a co-creation session showed that we all have situations in which we want to hear better. This insight, together with what we saw in the development of the headphone industry today, led us in an interesting direction.
 
 ![Function board](./images/widex/function-board.jpg)
 
@@ -68,7 +68,7 @@ You can control your soundscape in many ways with the HearO. Music is controlled
 ![Case for HearO](./images/widex/case.jpg)
 
 ## Increase Your Wellbeing
-The HearO increases your wellbeing by taking the health approach on wearables further. This is enabled by that the ear is the perfect placement for biometric measurements such as heart rate and stress level. The HearO gives you total control over your level of fitness and together with a smartphone app, you get a personalized training schedule. The stress level measurements is used in a part of the app focusing on giving you sound therapy for relaxation or focus.
+The HearO increases your wellbeing by taking the health approach on wearables further. This is enabled by the fact that the ear is a perfect placement for biometric measurements such as heart rate and stress level. The HearO gives you total control over your level of fitness and together with a smartphone app, you get a personalized training schedule. The stress level measurements is used in a part of the app focusing on giving you sound therapy for relaxation or focus.
 
 ![App for HearO](./images/widex/app.jpg)
 
@@ -80,7 +80,7 @@ The HearO increases your wellbeing by taking the health approach on wearables fu
 ![HearO technology](./images/widex/tech.jpg)
 
 ## Developing a New Brand
-The brand HearO was developed to get a great contrast to the hearing aid brands of today. It is a play with the words hear and hero. The dynamic logo where the O is replaced by the discs has been created to showcase the personalization possibilities. Posters were also created to show that the product fits both young and old, male and female.
+The brand HearO was developed to provide a contrast to the hearing aid brands of today. It's a play with the words hear and hero. The dynamic logo where the O is replaced by the discs has been created to showcase the personalization possibilities. Posters were also created to show that the product fits both young and old, male and female.
 
 ![HearO logo](./images/widex/logo.gif)
 
@@ -89,6 +89,6 @@ The brand HearO was developed to get a great contrast to the hearing aid brands 
 ![Hearo poster](./images/widex/poster2.jpg)
 
 ## The HearO Brand Store
-To get hearing aids today you go to an audiologist. They have outdated clinics with a strong healthcare association. We believe this needs to change to attract more users. Therefore we made a vision for a HearO brand store. It fits with how technology is sold today but with a stronger connection to style.
+To get hearing aids today, you go to an audiologist. They have clinics with a strong healthcare association. We believe this needs to change to attract more users. Therefore we made a vision for a HearO brand store. It fits with how technology is sold today but with a stronger connection to lifestyle.
 
 ![Hearo store](./images/widex/store.jpg)
