@@ -30,9 +30,6 @@ export default {
   components: {
     back,
   },
-  metaInfo: {
-    title: "Portfolio",
-  },
 };
 </script>
 
